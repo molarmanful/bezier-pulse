@@ -21,10 +21,8 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 
-		void drawLine();
-
 	ofPath path;
-	array<ofVec2f, 100> segments;
+	array<ofVec2f, 101> segments;
 	int interval;
 	int anim;
 	float lerp;
